@@ -1,0 +1,9 @@
+.authorName {
+  color: var(--grey-900);
+  margin: 0 0 5px;
+}
+
+.body {
+  color: var(--grey-700);
+  margin: 5px 0 0;
+}

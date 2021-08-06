@@ -1,0 +1,40 @@
+.post {
+  --padding: 15px;
+
+  border: 1px solid var(--grey-300);
+  border-radius: 5px;
+}
+
+.previewSection {
+  padding: var(--padding);
+}
+
+.title {
+  color: var(--grey-900);
+  margin: 0 0 10px;
+}
+
+.authorName {
+  color: var(--grey-500);
+  margin: 0 0 10px;
+}
+
+.body {
+  color: var(--grey-700);
+  margin-bottom: 0;
+}
+
+.commentsSection {
+  border-top: 1px solid var(--grey-300);
+  padding: var(--padding);
+}
+
+.comments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.comment:not(:first-child) {
+  margin-top: 15px;
+}

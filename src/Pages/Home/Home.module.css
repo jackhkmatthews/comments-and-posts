@@ -1,0 +1,99 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.home {
+  font-size: 16px;
+  margin: 0 30px;
+  padding-top: 20px;
+}
+
+/* TODO(jack.matthews): abstract to container class */
+@media (min-width: 600px) {
+  .home {
+    margin: 0 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home {
+    margin: 0 75px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+}
+
+.title {
+  color: var(--grey-900);
+}
+
+.limitLabel {
+  margin-right: 10px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.loading::after {
+  animation: rotate 1.2s linear infinite;
+  border: 6px solid var(--grey-500);
+  border-color: var(--grey-500) transparent var(--grey-500) transparent;
+  border-radius: 50%;
+  content: ' ';
+  display: block;
+  height: 30px;
+  margin: 8px;
+  width: 30px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.paginationButton {
+  background-color: white;
+  border: 1px solid var(--grey-300);
+  border-radius: 4px;
+  color: var(--grey-900);
+  margin: 10px 0;
+  padding: 3px 10px;
+}
+
+.paginationButton:hover {
+  background-color: var(--grey-100);
+  cursor: pointer;
+}
+
+.paginationButton:not(:first-child) {
+  margin-left: 10px;
+}
+
+.paginationButtonActive {
+  background-color: var(--grey-300);
+}
+
+.posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post {
+  margin: 10px 0;
+  padding: 0;
+}
