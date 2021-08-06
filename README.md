@@ -4,6 +4,8 @@
 
 We use github actions.
 
+Promise.
+
 ## Section A
 
 0. Project setup
