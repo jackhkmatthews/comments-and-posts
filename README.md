@@ -2,7 +2,7 @@
 
 # CI/CD
 
-We run github actions.
+We use github actions.
 
 ## Section A
 
