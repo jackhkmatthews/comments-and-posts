@@ -37,7 +37,7 @@ const LIMIT_OPTIONS = [10, 20, 30, 50];
 function Home() {
   const [limit, setLimit] = useState(DEFAULT_LIMIT);
   const [page, setPage] = useState(1);
-  const { loading, error, data } = useQuery(GET_POSTS, {
+  const { loading, data } = useQuery(GET_POSTS, {
     variables: { limit, page },
   });
 
