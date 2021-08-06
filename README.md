@@ -2,6 +2,8 @@
 
 # CI/CD
 
+We run github actions.
+
 ## Section A
 
 0. Project setup
