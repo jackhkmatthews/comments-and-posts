@@ -4,7 +4,7 @@
 
 We use github actions.
 
-Promise.
+Config can be found in `/.github`.
 
 ## Section A
 
